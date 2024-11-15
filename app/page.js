@@ -64,8 +64,8 @@ export default function Home() {
   return (
     <>
       <div className='score'>
-        <div className='word-count'>Kaçıncı kelime: {wordCount} </div>
-        <div className='points'>Puan: {points}</div>
+        <div className='word-count'>{wordCount}. kelime</div>
+        <div className='points'>{points} puan</div>
       </div>
       {activeIndex && !isCardsFinished && (
         <div key={count} style={{ textAlign: 'center' }}>
@@ -76,7 +76,7 @@ export default function Home() {
         {activeIndex &&
           !isCardsFinished &&
           words.map(
-            (word, wordIndex) => wordIndex === activeIndex && <Card key={word.id} word={word} />
+            (word, wordIndex) => wordIndex === activeIndex && <Card key={wordIndex} word={word} />
           )}
 
         {!activeIndex && !isCardsFinished && (

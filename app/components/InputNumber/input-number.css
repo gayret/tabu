@@ -4,7 +4,7 @@
   gap: 0.5rem;
   width: 100%;
   justify-content: space-between;
-  align-items: center;
+  align-items: baseline;
   margin-bottom: 2rem;
 }
 
@@ -16,7 +16,7 @@
   border: none;
   color: #ededed;
   cursor: pointer;
-  padding: 1rem;
+  padding: 1rem 3rem;
   margin-top: 1rem;
 }
 

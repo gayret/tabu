@@ -26,7 +26,7 @@ export default function Settings() {
       <h1>Ayarlar</h1>
       <div className='settings-fields'>
         <div className='settings-field'>
-          <InputNumber label='Kart başına tanınacak süre' value={count} setValue={setCount} />
+          <InputNumber label='Kart başına tanınacak süre (sn)' value={count} setValue={setCount} />
         </div>
         <div className='settings-field'>
           <InputNumber label='Toplam pas hakkı' value={passable} setValue={setPassable} />

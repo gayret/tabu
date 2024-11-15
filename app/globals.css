@@ -131,7 +131,7 @@ button {
 }
 
 .actions button.yes {
-  background-color: green;
+  background-color: darkgreen;
   color: var(--foreground);
 }
 
@@ -147,7 +147,7 @@ button {
 }
 
 .settings-field input {
-  padding: 0.5rem;
+  padding: 0.9rem 0.5rem;
   border-radius: 8px;
   border: 1px solid #555;
 }
@@ -182,4 +182,8 @@ footer {
   border-color: red;
   background-color: yellow;
   color: var(--background);
+}
+
+.word-count {
+  color: #666;
 }
