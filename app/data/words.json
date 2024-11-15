@@ -1,0 +1,1130 @@
+[
+  {
+    "id": 1,
+    "title": "Elma",
+    "isUsed": false,
+    "forbiddens": ["Meyve", "Kırmızı", "Newton", "Armut"]
+  },
+  {
+    "id": 2,
+    "title": "Telefon",
+    "isUsed": false,
+    "forbiddens": ["Arama", "Mesaj", "Ses", "Ekran"]
+  },
+  {
+    "id": 3,
+    "title": "Yazılım",
+    "isUsed": false,
+    "forbiddens": ["Kod", "Bilgisayar", "Teknoloji", "Uygulama"]
+  },
+  {
+    "id": 4,
+    "title": "Araba",
+    "isUsed": false,
+    "forbiddens": ["Taşıt", "Motor", "Tekerlek", "Yol"]
+  },
+  {
+    "id": 5,
+    "title": "Kalem",
+    "isUsed": false,
+    "forbiddens": ["Yazı", "Kağıt", "Çizim", "Okul"]
+  },
+  {
+    "id": 6,
+    "title": "Kitap",
+    "isUsed": false,
+    "forbiddens": ["Okuma", "Kütüphane", "Sayfa", "Yazar"]
+  },
+  {
+    "id": 7,
+    "title": "Su",
+    "isUsed": false,
+    "forbiddens": ["İçecek", "Şişe", "Deniz", "Bardak"]
+  },
+  {
+    "id": 8,
+    "title": "Işık",
+    "isUsed": false,
+    "forbiddens": ["Lamba", "Güneş", "Aydınlatma", "Elektrik"]
+  },
+  {
+    "id": 9,
+    "title": "Futbol",
+    "isUsed": false,
+    "forbiddens": ["Top", "Saha", "Gol", "Spor"]
+  },
+  {
+    "id": 10,
+    "title": "Şişe",
+    "isUsed": false,
+    "forbiddens": ["Plastik", "Su", "İçecek", "Kapak"]
+  },
+  {
+    "id": 11,
+    "title": "Masa",
+    "isUsed": false,
+    "forbiddens": ["Mobilya", "Ahşap", "Oturmak", "Sandalyeler"]
+  },
+  {
+    "id": 12,
+    "title": "Kamera",
+    "isUsed": false,
+    "forbiddens": ["Fotoğraf", "Video", "Çekim", "Lens"]
+  },
+  {
+    "id": 13,
+    "title": "Gözlük",
+    "isUsed": false,
+    "forbiddens": ["Cam", "Göz", "Çerçeve", "Görme"]
+  },
+  {
+    "id": 14,
+    "title": "Deniz",
+    "isUsed": false,
+    "forbiddens": ["Su", "Kum", "Yüzmek", "Dalga"]
+  },
+  {
+    "id": 16,
+    "title": "Bilgisayar",
+    "isUsed": false,
+    "forbiddens": ["Teknoloji", "Elektronik", "Klavyeler", "Ekran"]
+  },
+  {
+    "id": 17,
+    "title": "Kediler",
+    "isUsed": false,
+    "forbiddens": ["Evcil", "Pati", "Miyavlama", "Kum"]
+  },
+  {
+    "id": 18,
+    "title": "Yatak",
+    "isUsed": false,
+    "forbiddens": ["Uyku", "Yastık", "Rahat", "Kanepe"]
+  },
+  {
+    "id": 19,
+    "title": "Köpek",
+    "isUsed": false,
+    "forbiddens": ["Evcil", "Pati", "Sadık", "Havlama"]
+  },
+  {
+    "id": 20,
+    "title": "Oyun",
+    "isUsed": false,
+    "forbiddens": ["Eğlence", "Bilgisayar", "Hikaye", "Zeka"]
+  },
+  {
+    "id": 21,
+    "title": "Saat",
+    "isUsed": false,
+    "forbiddens": ["Zaman", "TikTak", "Saatçilik", "Göstergeler"]
+  },
+  {
+    "id": 22,
+    "title": "Çanta",
+    "isUsed": false,
+    "forbiddens": ["Taşıma", "Kıyafet", "Kompakt", "Karmaşık"]
+  },
+  {
+    "id": 23,
+    "title": "Bilet",
+    "isUsed": false,
+    "forbiddens": ["Sinema", "Konser", "Ulaşım", "Fiyat"]
+  },
+  {
+    "id": 24,
+    "title": "Çiçek",
+    "isUsed": false,
+    "forbiddens": ["Doğa", "Bitki", "Kokulu", "Açan"]
+  },
+  {
+    "id": 25,
+    "title": "Bisiklet",
+    "isUsed": false,
+    "forbiddens": ["Pedal", "Taşıma", "Yol", "Hız"]
+  },
+  {
+    "id": 26,
+    "title": "Sokak",
+    "isUsed": false,
+    "forbiddens": ["Cadde", "Yol", "Bina", "Şehir"]
+  },
+  {
+    "id": 27,
+    "title": "Yol",
+    "isUsed": false,
+    "forbiddens": ["Gidecek", "Taşıma", "Araç", "Kavşak"]
+  },
+  {
+    "id": 28,
+    "title": "Eczane",
+    "isUsed": false,
+    "forbiddens": ["İlaç", "Sağlık", "Reçete", "Tedavi"]
+  },
+  {
+    "id": 29,
+    "title": "Hastane",
+    "isUsed": false,
+    "forbiddens": ["Sağlık", "Doktor", "Tedavi", "Yatak"]
+  },
+  {
+    "id": 30,
+    "title": "Şehir",
+    "isUsed": false,
+    "forbiddens": ["İnsan", "Bina", "Yol", "Meydan"]
+  },
+  {
+    "id": 31,
+    "title": "Göz",
+    "isUsed": false,
+    "forbiddens": ["Vizyon", "Işık", "Görme", "Lens"]
+  },
+  {
+    "id": 32,
+    "title": "Kış",
+    "isUsed": false,
+    "forbiddens": ["Soğuk", "Kar", "Yağmur", "Buz"]
+  },
+  {
+    "id": 33,
+    "title": "Yaz",
+    "isUsed": false,
+    "forbiddens": ["Sıcak", "Güneş", "Tatilde", "Plaj"]
+  },
+  {
+    "id": 34,
+    "title": "Küpe",
+    "isUsed": false,
+    "forbiddens": ["Takı", "Kulak", "İnce", "Süslü"]
+  },
+  {
+    "id": 35,
+    "title": "Çorap",
+    "isUsed": false,
+    "forbiddens": ["Ayak", "Giyim", "Sıcak", "Kış"]
+  },
+  {
+    "id": 36,
+    "title": "Meyve",
+    "isUsed": false,
+    "forbiddens": ["Doğa", "Tatlı", "Kırmızı", "Sulu"]
+  },
+  {
+    "id": 37,
+    "title": "Baba",
+    "isUsed": false,
+    "forbiddens": ["Aile", "Erkek", "Ebeveyn", "Anne"]
+  },
+  {
+    "id": 38,
+    "title": "Anne",
+    "isUsed": false,
+    "forbiddens": ["Ebeveyn", "Kadın", "Baba", "Çocuk"]
+  },
+  {
+    "id": 39,
+    "title": "Oturma",
+    "isUsed": false,
+    "forbiddens": ["Sandalyede", "Rahat", "Yatak", "Dinlenme"]
+  },
+  {
+    "id": 40,
+    "title": "Sandalye",
+    "isUsed": false,
+    "forbiddens": ["Mobilya", "Oturmak", "Rahat", "Bacak"]
+  },
+  {
+    "id": 41,
+    "title": "Meyve Suyu",
+    "isUsed": false,
+    "forbiddens": ["İçecek", "Meyve", "Sıvı", "Tatlı"]
+  },
+  {
+    "id": 42,
+    "title": "Karpuz",
+    "isUsed": false,
+    "forbiddens": ["Meyve", "Tatlı", "Büyük", "Yaz"]
+  },
+  {
+    "id": 43,
+    "title": "Sırt Çantası",
+    "isUsed": false,
+    "forbiddens": ["Taşıma", "Çanta", "Okul", "Okul Çantası"]
+  },
+  {
+    "id": 44,
+    "title": "Yüzme",
+    "isUsed": false,
+    "forbiddens": ["Su", "Havuz", "Hareket", "Spora"]
+  },
+  {
+    "id": 45,
+    "title": "Çamaşır Makinesi",
+    "isUsed": false,
+    "forbiddens": ["Ev", "Yıkama", "Elektronik", "Çamaşır"]
+  },
+  {
+    "id": 46,
+    "title": "Fırın",
+    "isUsed": false,
+    "forbiddens": ["Yemek", "Pişirme", "Elektrik", "Ocak"]
+  },
+  {
+    "id": 47,
+    "title": "Tatlı",
+    "isUsed": false,
+    "forbiddens": ["Şeker", "Tat", "Krem", "Çikolata"]
+  },
+  {
+    "id": 48,
+    "title": "Kış Sporları",
+    "isUsed": false,
+    "forbiddens": ["Kar", "Buz", "Kayak", "Eğlence"]
+  },
+  {
+    "id": 49,
+    "title": "Tatil",
+    "isUsed": false,
+    "forbiddens": ["Deniz", "Günbatımı", "Sıcak", "Dinlenme"]
+  },
+  {
+    "id": 50,
+    "title": "Dağ",
+    "isUsed": false,
+    "forbiddens": ["Yüksek", "Doğa", "Kayak", "Kaya"]
+  },
+  {
+    "id": 51,
+    "title": "Yüzük",
+    "isUsed": false,
+    "forbiddens": ["Takı", "Parmak", "Altın", "Düğün"]
+  },
+  {
+    "id": 52,
+    "title": "Tuz",
+    "isUsed": false,
+    "forbiddens": ["Baharat", "Beyaz", "Yemek", "Lezzet"]
+  },
+  {
+    "id": 53,
+    "title": "Tavuk",
+    "isUsed": false,
+    "forbiddens": ["Yemek", "Et", "Kanat", "Pişirmek"]
+  },
+  {
+    "id": 54,
+    "title": "Büyük",
+    "isUsed": false,
+    "forbiddens": ["Boyut", "Dev", "Alan", "Kapsamlı"]
+  },
+  {
+    "id": 55,
+    "title": "Büyükşehir",
+    "isUsed": false,
+    "forbiddens": ["Şehir", "Metropol", "İnsan", "Bina"]
+  },
+  {
+    "id": 56,
+    "title": "Ekmek",
+    "isUsed": false,
+    "forbiddens": ["Yemek", "Un", "Fırın", "Kahvaltı"]
+  },
+  {
+    "id": 57,
+    "title": "Çalışmak",
+    "isUsed": false,
+    "forbiddens": ["İş", "Maaş", "Ofis", "Zaman"]
+  },
+  {
+    "id": 58,
+    "title": "Gitar",
+    "isUsed": false,
+    "forbiddens": ["Müzik", "Enstrüman", "Tel", "Ritim"]
+  },
+  {
+    "id": 59,
+    "title": "Spor",
+    "isUsed": false,
+    "forbiddens": ["Aktivite", "Sağlık", "Fiziksel", "Hareket"]
+  },
+  {
+    "id": 60,
+    "title": "Laptop",
+    "isUsed": false,
+    "forbiddens": ["Bilgisayar", "Portatif", "Teknoloji", "Ekran"]
+  },
+  {
+    "id": 61,
+    "title": "Oyun Konsolu",
+    "isUsed": false,
+    "forbiddens": ["Teknoloji", "Ekran", "Video", "Kontrol"]
+  },
+  {
+    "id": 62,
+    "title": "Beyaz",
+    "isUsed": false,
+    "forbiddens": ["Renk", "Saf", "Kar", "Işık"]
+  },
+  {
+    "id": 63,
+    "title": "Sarı",
+    "isUsed": false,
+    "forbiddens": ["Renk", "Güneş", "Işık", "Limon"]
+  },
+  {
+    "id": 65,
+    "title": "Bardak",
+    "isUsed": false,
+    "forbiddens": ["İçecek", "Cam", "Sıvı", "Su"]
+  },
+  {
+    "id": 66,
+    "title": "Ceket",
+    "isUsed": false,
+    "forbiddens": ["Giyim", "Kış", "Sıcak", "Dışarı"]
+  },
+  {
+    "id": 67,
+    "title": "Şemsiye",
+    "isUsed": false,
+    "forbiddens": ["Yağmur", "Koruma", "Açmak", "Su"]
+  },
+  {
+    "id": 68,
+    "title": "Savaş",
+    "isUsed": false,
+    "forbiddens": ["Asker", "Silah", "Çatışma", "Düşman"]
+  },
+  {
+    "id": 69,
+    "title": "Yıl",
+    "isUsed": false,
+    "forbiddens": ["Zaman", "Takvim", "Ay", "Dönem"]
+  },
+  {
+    "id": 70,
+    "title": "Beyin",
+    "isUsed": false,
+    "forbiddens": ["Zihin", "Düşünce", "Sinir", "Organ"]
+  },
+  {
+    "id": 71,
+    "title": "Denizaltı",
+    "isUsed": false,
+    "forbiddens": ["Deniz", "Su", "Gemiler", "Teknoloji"]
+  },
+  {
+    "id": 72,
+    "title": "Yelkenli",
+    "isUsed": false,
+    "forbiddens": ["Tekne", "Deniz", "Rüzgar", "Yelken"]
+  },
+  {
+    "id": 73,
+    "title": "Meteoroloji",
+    "isUsed": false,
+    "forbiddens": ["Hava", "Bilim", "Tahmin", "İklim"]
+  },
+  {
+    "id": 74,
+    "title": "Eğitim",
+    "isUsed": false,
+    "forbiddens": ["Okul", "Öğrenme", "Kurs", "Bilgi"]
+  },
+  {
+    "id": 75,
+    "title": "Piknik",
+    "isUsed": false,
+    "forbiddens": ["Doğa", "Açık Alan", "Yemek", "Arkadaş"]
+  },
+  {
+    "id": 76,
+    "title": "Dondurma",
+    "isUsed": false,
+    "forbiddens": ["Tatlı", "Sıcak", "Yaz", "Süt"]
+  },
+  {
+    "id": 78,
+    "title": "Bira",
+    "isUsed": false,
+    "forbiddens": ["İçki", "Alkol", "Şişe", "Zaman"]
+  },
+  {
+    "id": 79,
+    "title": "Tepki",
+    "isUsed": false,
+    "forbiddens": ["Yanıt", "Davranış", "Aksiyon", "Hız"]
+  },
+  {
+    "id": 80,
+    "title": "Ders",
+    "isUsed": false,
+    "forbiddens": ["Eğitim", "Okul", "Öğretmen", "Öğrenci"]
+  },
+  {
+    "id": 81,
+    "title": "Zeka",
+    "isUsed": false,
+    "forbiddens": ["Beyin", "Düşünme", "IQ", "Test"]
+  },
+  {
+    "id": 82,
+    "title": "Hız",
+    "isUsed": false,
+    "forbiddens": ["Çabuk", "Yarış", "Koşu", "Arabalar"]
+  },
+  {
+    "id": 83,
+    "title": "Tartışma",
+    "isUsed": false,
+    "forbiddens": ["Fikir", "Karşıt", "Kavga", "Söylem"]
+  },
+  {
+    "id": 84,
+    "title": "Köşe",
+    "isUsed": false,
+    "forbiddens": ["Yazı", "Bölüm", "Gazete", "Yer"]
+  },
+  {
+    "id": 85,
+    "title": "Film",
+    "isUsed": false,
+    "forbiddens": ["Sinema", "Görüntü", "Hikaye", "Ekran"]
+  },
+  {
+    "id": 86,
+    "title": "Öğrenci",
+    "isUsed": false,
+    "forbiddens": ["Okul", "Ders", "Eğitim", "Genç"]
+  },
+  {
+    "id": 87,
+    "title": "Güneş",
+    "isUsed": false,
+    "forbiddens": ["Işık", "Yaz", "Sıcak", "Gündüz"]
+  },
+  {
+    "id": 88,
+    "title": "Hikaye",
+    "isUsed": false,
+    "forbiddens": ["Öykü", "Kitap", "Anlatmak", "Fikir"]
+  },
+  {
+    "id": 89,
+    "title": "Renk",
+    "isUsed": false,
+    "forbiddens": ["Mavi", "Kırmızı", "Sarı", "Yeşil"]
+  },
+  {
+    "id": 90,
+    "title": "Köprü",
+    "isUsed": false,
+    "forbiddens": ["Yol", "Geçiş", "Taşıma", "Nehrin"]
+  },
+  {
+    "id": 100,
+    "title": "Çikolata",
+    "isUsed": false,
+    "forbiddens": ["Tatlı", "Şeker", "Kakao", "Kremalı"]
+  },
+  {
+    "id": 105,
+    "title": "Köy",
+    "isUsed": false,
+    "forbiddens": ["Kırsal", "Doğa", "Huzur", "Ev"]
+  },
+  {
+    "id": 108,
+    "title": "Sinema",
+    "isUsed": false,
+    "forbiddens": ["Film", "Perde", "Ekran", "Sinemasever"]
+  },
+  {
+    "id": 109,
+    "title": "Boya",
+    "isUsed": false,
+    "forbiddens": ["Renk", "Duvar", "Fırça", "Sanat"]
+  },
+  {
+    "id": 110,
+    "title": "Kütüphane",
+    "isUsed": false,
+    "forbiddens": ["Kitap", "Okumak", "Bilgi", "Sessiz"]
+  },
+  {
+    "id": 111,
+    "title": "Ağaç",
+    "isUsed": false,
+    "forbiddens": ["Doğa", "Yeşil", "Büyümek", "Fidan"]
+  },
+  {
+    "id": 113,
+    "title": "Uçak",
+    "isUsed": false,
+    "forbiddens": ["Taşıma", "Hava", "Kanat", "Hız"]
+  },
+  {
+    "id": 116,
+    "title": "Pizza",
+    "isUsed": false,
+    "forbiddens": ["Yemek", "İtalyan", "Hamur", "Mozarella"]
+  },
+  {
+    "id": 118,
+    "title": "Cüzdan",
+    "isUsed": false,
+    "forbiddens": ["Para", "Takı", "Cebinde", "Deriden"]
+  },
+  {
+    "id": 119,
+    "title": "Kızıl",
+    "isUsed": false,
+    "forbiddens": ["Renk", "Koyu", "Alev", "Sıcak"]
+  },
+  {
+    "id": 120,
+    "title": "Çalışan",
+    "isUsed": false,
+    "forbiddens": ["İş", "Çaba", "İnsan", "Maaş"]
+  },
+  {
+    "id": 121,
+    "title": "Müzik",
+    "isUsed": false,
+    "forbiddens": ["Ses", "Melodi", "Şarkı", "Enstrüman"]
+  },
+  {
+    "id": 122,
+    "title": "Felsefe",
+    "isUsed": false,
+    "forbiddens": ["Düşünce", "Zihin", "Bilgi", "Mantık"]
+  },
+  {
+    "id": 123,
+    "title": "Astronomi",
+    "isUsed": false,
+    "forbiddens": ["Uzay", "Yıldız", "Gezegen", "Bilim"]
+  },
+  {
+    "id": 124,
+    "title": "Matematik",
+    "isUsed": false,
+    "forbiddens": ["Sayı", "Hesaplama", "Geometri", "Deney"]
+  },
+  {
+    "id": 125,
+    "title": "Kimya",
+    "isUsed": false,
+    "forbiddens": ["Madde", "Bileşik", "Laboratuvar", "Reaksiyon"]
+  },
+  {
+    "id": 126,
+    "title": "Zaman",
+    "isUsed": false,
+    "forbiddens": ["Saat", "Geçiş", "Saat dilimi", "Geçmiş"]
+  },
+  {
+    "id": 127,
+    "title": "Rüya",
+    "isUsed": false,
+    "forbiddens": ["Uyku", "Görmek", "Bilinçaltı", "Hayal"]
+  },
+  {
+    "id": 128,
+    "title": "Bilinç",
+    "isUsed": false,
+    "forbiddens": ["Zihin", "Farkındalık", "Düşünce", "Beyin"]
+  },
+  {
+    "id": 129,
+    "title": "Karanlık",
+    "isUsed": false,
+    "forbiddens": ["Gece", "Işık", "Gölge", "Köşe"]
+  },
+  {
+    "id": 133,
+    "title": "Huzur",
+    "isUsed": false,
+    "forbiddens": ["Sakin", "Rahat", "Zihin", "Dinlenme"]
+  },
+  {
+    "id": 134,
+    "title": "Toprak",
+    "isUsed": false,
+    "forbiddens": ["Bölge", "Doğa", "Fertil", "Topraklama"]
+  },
+  {
+    "id": 135,
+    "title": "Gizem",
+    "isUsed": false,
+    "forbiddens": ["Sır", "Bilinmeyen", "Sırrı çözme", "Şifre"]
+  },
+  {
+    "id": 136,
+    "title": "Kelimeler",
+    "isUsed": false,
+    "forbiddens": ["Dil", "Anlam", "İletişim", "Cümle"]
+  },
+  {
+    "id": 137,
+    "title": "Kültür",
+    "isUsed": false,
+    "forbiddens": ["Geleneğe", "Toplum", "Dil", "Sanat"]
+  },
+  {
+    "id": 138,
+    "title": "Büyü",
+    "isUsed": false,
+    "forbiddens": ["Sihir", "Gizlilik", "Büyücü", "İllüzyon"]
+  },
+  {
+    "id": 139,
+    "title": "Yıldızlar",
+    "isUsed": false,
+    "forbiddens": ["Gökyüzü", "Astronomi", "Parlak", "Gece"]
+  },
+  {
+    "id": 140,
+    "title": "Bütünlük",
+    "isUsed": false,
+    "forbiddens": ["Tam", "Eksiksiz", "Birlik", "Denge"]
+  },
+  {
+    "id": 141,
+    "title": "Felsefi",
+    "isUsed": false,
+    "forbiddens": ["Fikir", "Derin", "Düşünce", "Mantık"]
+  },
+  {
+    "id": 142,
+    "title": "Anlam",
+    "isUsed": false,
+    "forbiddens": ["Sözcük", "Kelime", "İfade", "Görüş"]
+  },
+  {
+    "id": 143,
+    "title": "Zihin",
+    "isUsed": false,
+    "forbiddens": ["Düşünme", "Beyin", "Fikir", "Felsefe"]
+  },
+  {
+    "id": 144,
+    "title": "Düşünce",
+    "isUsed": false,
+    "forbiddens": ["Zihin", "Fikir", "Düşünmek", "Beyin"]
+  },
+  {
+    "id": 145,
+    "title": "Bilim",
+    "isUsed": false,
+    "forbiddens": ["Araştırma", "Veri", "Bilim adamı", "Yöntem"]
+  },
+  {
+    "id": 146,
+    "title": "Sanat",
+    "isUsed": false,
+    "forbiddens": ["Yaratıcılık", "Resim", "Tasarım", "Felsefe"]
+  },
+  {
+    "id": 148,
+    "title": "Karma",
+    "isUsed": false,
+    "forbiddens": ["Enerji", "Yol", "Hayat", "Dünya"]
+  },
+  {
+    "id": 149,
+    "title": "İnsan",
+    "isUsed": false,
+    "forbiddens": ["Birey", "Yaşam", "Toplum", "Zihin"]
+  },
+  {
+    "id": 150,
+    "title": "Dünya",
+    "isUsed": false,
+    "forbiddens": ["Gezegen", "Yaşam", "Evren", "Hayat"]
+  },
+  {
+    "id": 151,
+    "title": "Patika",
+    "isUsed": false,
+    "forbiddens": ["Yol", "Doğa", "Orman", "Gezi"]
+  },
+  {
+    "id": 153,
+    "title": "Göl",
+    "isUsed": false,
+    "forbiddens": ["Su", "Doğa", "Havuz", "Suyu"]
+  },
+  {
+    "id": 154,
+    "title": "Buz",
+    "isUsed": false,
+    "forbiddens": ["Su", "Soğuk", "Küle", "Kar"]
+  },
+  {
+    "id": 155,
+    "title": "Aşk",
+    "isUsed": false,
+    "forbiddens": ["Sevgi", "Duygu", "Kalp", "Romantik"]
+  },
+  {
+    "id": 159,
+    "title": "Yıldız",
+    "isUsed": false,
+    "forbiddens": ["Gökyüzü", "Parlak", "Astronomi", "Işık"]
+  },
+  {
+    "id": 160,
+    "title": "Kıyafet",
+    "isUsed": false,
+    "forbiddens": ["Giyim", "Moda", "Giysi", "Elbise"]
+  },
+  {
+    "id": 162,
+    "title": "Gizli",
+    "isUsed": false,
+    "forbiddens": ["Sır", "Bilinmeyen", "Kapalı", "Özel"]
+  },
+  {
+    "id": 163,
+    "title": "Saklambaç",
+    "isUsed": false,
+    "forbiddens": ["Oyun", "Benzetmek", "Gizli", "Bulmak"]
+  },
+  {
+    "id": 164,
+    "title": "Serbest",
+    "isUsed": false,
+    "forbiddens": ["Bağımsız", "Özgür", "Kısıtlanmamış", "Hür"]
+  },
+  {
+    "id": 166,
+    "title": "Köle",
+    "isUsed": false,
+    "forbiddens": ["Zorlama", "Özgürlük", "Emir", "Esaret"]
+  },
+  {
+    "id": 167,
+    "title": "Komik",
+    "isUsed": false,
+    "forbiddens": ["Eğlenceli", "Şaka", "Gülme", "Fıkra"]
+  },
+  {
+    "id": 171,
+    "title": "Çalışma",
+    "isUsed": false,
+    "forbiddens": ["İş", "Zorluk", "Efor", "Başarı"]
+  },
+  {
+    "id": 172,
+    "title": "Rüzgar",
+    "isUsed": false,
+    "forbiddens": ["Hava", "Esinti", "Fırtına", "Doğa"]
+  },
+  {
+    "id": 174,
+    "title": "Sosyal",
+    "isUsed": false,
+    "forbiddens": ["Toplum", "İnsan", "İletişim", "Herkes"]
+  },
+  {
+    "id": 175,
+    "title": "Kuş",
+    "isUsed": false,
+    "forbiddens": ["Uçmak", "Kanat", "Hayvan", "Doğa"]
+  },
+  {
+    "id": 176,
+    "title": "Yağmur",
+    "isUsed": false,
+    "forbiddens": ["Yağış", "Su", "Damlalar", "Hava"]
+  },
+  {
+    "id": 177,
+    "title": "Kapan",
+    "isUsed": false,
+    "forbiddens": ["Tuzağa", "Kapalı", "Saklamak", "Ev"]
+  },
+  {
+    "id": 178,
+    "title": "Elmas",
+    "isUsed": false,
+    "forbiddens": ["Değerli", "Taş", "Mücevher", "Parlak"]
+  },
+  {
+    "id": 179,
+    "title": "Bıçak",
+    "isUsed": false,
+    "forbiddens": ["Kesmek", "Alet", "Keskin", "Bıçaklama"]
+  },
+  {
+    "id": 180,
+    "title": "Saray",
+    "isUsed": false,
+    "forbiddens": ["Büyük", "Kraliyet", "Yapı", "Lüks"]
+  },
+  {
+    "id": 181,
+    "title": "Çakıl",
+    "isUsed": false,
+    "forbiddens": ["Taş", "Yol", "Küçük", "Toprak"]
+  },
+  {
+    "id": 182,
+    "title": "Kelebek",
+    "isUsed": false,
+    "forbiddens": ["Uçan", "Kanat", "Çiçek", "İnce"]
+  },
+  {
+    "id": 183,
+    "title": "Şehit",
+    "isUsed": false,
+    "forbiddens": ["Kahraman", "Savaş", "Fedakarlık", "Üzgün"]
+  },
+  {
+    "id": 185,
+    "title": "Kasaba",
+    "isUsed": false,
+    "forbiddens": ["Küçük", "Yerleşim", "Köy", "Evler"]
+  },
+  {
+    "id": 186,
+    "title": "Yelken",
+    "isUsed": false,
+    "forbiddens": ["Deniz", "Tekne", "Yelkenli", "Rüzgar"]
+  },
+  {
+    "id": 187,
+    "title": "Banka",
+    "isUsed": false,
+    "forbiddens": ["Para", "Finans", "Hesap", "Emanet"]
+  },
+  {
+    "id": 188,
+    "title": "Doğa",
+    "isUsed": false,
+    "forbiddens": ["Yeşil", "Ağaç", "Hayvan", "Orman"]
+  },
+  {
+    "id": 189,
+    "title": "Fabrika",
+    "isUsed": false,
+    "forbiddens": ["Üretim", "Makine", "Sanayi", "İş"]
+  },
+  {
+    "id": 193,
+    "title": "Okyanus",
+    "isUsed": false,
+    "forbiddens": ["Deniz", "Büyük", "Su", "Derin"]
+  },
+  {
+    "id": 194,
+    "title": "Varlık",
+    "isUsed": false,
+    "forbiddens": ["Var", "Mevcudiyet", "Gerçeklik", "Herkes"]
+  },
+  {
+    "id": 195,
+    "title": "Kanat",
+    "isUsed": false,
+    "forbiddens": ["Uçuş", "Hayvan", "Böcek", "Yelken"]
+  },
+  {
+    "id": 196,
+    "title": "Ütopya",
+    "isUsed": false,
+    "forbiddens": ["Hayal", "Toplum", "Gelecek", "İdeal"]
+  },
+  {
+    "id": 197,
+    "title": "Gökkuşağı",
+    "isUsed": false,
+    "forbiddens": ["Renk", "Işık", "Doğa", "Yağmur"]
+  },
+  {
+    "id": 199,
+    "title": "Kışla",
+    "isUsed": false,
+    "forbiddens": ["Asker", "Bina", "Barınma", "Disiplin"]
+  },
+  {
+    "id": 200,
+    "title": "Tuzak",
+    "isUsed": false,
+    "forbiddens": ["Saklamak", "Tuzağa", "Saklı", "Kapalı"]
+  },
+  {
+    "id": 201,
+    "title": "Ayakkabı",
+    "isUsed": false,
+    "forbiddens": ["Giyim", "Kullanım", "Ayak", "Dışarı"]
+  },
+  {
+    "id": 210,
+    "title": "Gemi",
+    "isUsed": false,
+    "forbiddens": ["Deniz", "Taşıma", "Büyük", "Su"]
+  },
+  {
+    "id": 211,
+    "title": "Para",
+    "isUsed": false,
+    "forbiddens": ["Döviz", "Finans", "Ticaret", "Değer"]
+  },
+  {
+    "id": 216,
+    "title": "Oda",
+    "isUsed": false,
+    "forbiddens": ["Ev", "İçerisi", "Mekan", "Kapatmak"]
+  },
+  {
+    "id": 219,
+    "title": "Havuz",
+    "isUsed": false,
+    "forbiddens": ["Su", "Yüzme", "Sıcak", "Eğlence"]
+  },
+  {
+    "id": 224,
+    "title": "Top",
+    "isUsed": false,
+    "forbiddens": ["Futbol", "Oyun", "Spor", "Yuvarlak"]
+  },
+  {
+    "id": 227,
+    "title": "Hayvan",
+    "isUsed": false,
+    "forbiddens": ["Canlı", "Evcil", "Yaratık", "Doğa"]
+  },
+  {
+    "id": 229,
+    "title": "Yemek",
+    "isUsed": false,
+    "forbiddens": ["Meyve", "Hazırlamak", "Yedi", "Doyurucu"]
+  },
+  {
+    "id": 236,
+    "title": "Aslan",
+    "isUsed": false,
+    "forbiddens": ["Hayvan", "Yırtıcı", "Kral", "Güç"]
+  },
+  {
+    "id": 240,
+    "title": "Okul",
+    "isUsed": false,
+    "forbiddens": ["Eğitim", "Sınıf", "Öğrenci", "Müfredat"]
+  },
+  {
+    "id": 241,
+    "title": "Müze",
+    "isUsed": false,
+    "forbiddens": ["Sanat", "Eser", "Sergi", "Ziyaret"]
+  },
+  {
+    "id": 245,
+    "title": "Sinemada",
+    "isUsed": false,
+    "forbiddens": ["Film", "Ekran", "Gösterim", "Sinema"]
+  },
+  {
+    "id": 246,
+    "title": "Şehirlerarası",
+    "isUsed": false,
+    "forbiddens": ["Yolculuk", "Taşıma", "Uzak", "Şehir"]
+  },
+  {
+    "id": 248,
+    "title": "Kum",
+    "isUsed": false,
+    "forbiddens": ["Sahilde", "Sarı", "Zemin", "Plaj"]
+  },
+  {
+    "id": 251,
+    "title": "Yat",
+    "isUsed": false,
+    "forbiddens": ["Gemi", "Taşıma", "Su", "Lüks"]
+  },
+  {
+    "id": 252,
+    "title": "Zeytin",
+    "isUsed": false,
+    "forbiddens": ["Meyve", "Zeytinyağı", "Yeşil", "Akdeniz"]
+  },
+  {
+    "id": 253,
+    "title": "Çamaşır",
+    "isUsed": false,
+    "forbiddens": ["Kıyafet", "Yıkamak", "Kirli", "Temizlik"]
+  },
+  {
+    "id": 254,
+    "title": "Zırh",
+    "isUsed": false,
+    "forbiddens": ["Koruma", "Metal", "Savunma", "Ortaçağ"]
+  },
+  {
+    "id": 255,
+    "title": "Baskı",
+    "isUsed": false,
+    "forbiddens": ["Yazıcı", "Kağıt", "İz", "Yazı"]
+  },
+  {
+    "id": 256,
+    "title": "Kumanda",
+    "isUsed": false,
+    "forbiddens": ["Elektronik", "Kontrol", "Uzaktan", "Televizyon"]
+  },
+  {
+    "id": 259,
+    "title": "Bocce",
+    "isUsed": false,
+    "forbiddens": ["Top", "Spor", "Yol", "Eğlence"]
+  },
+  {
+    "id": 260,
+    "title": "Mum",
+    "isUsed": false,
+    "forbiddens": ["Işık", "Yakmak", "Parafini", "Aydınlatma"]
+  },
+  {
+    "id": 263,
+    "title": "Bulut",
+    "isUsed": false,
+    "forbiddens": ["Hava", "Su", "Gökyüzü", "Yağmur"]
+  },
+  {
+    "id": 264,
+    "title": "Şimşek",
+    "isUsed": false,
+    "forbiddens": ["Fırtına", "Hava", "Aydınlatma", "Işık"]
+  },
+  {
+    "id": 266,
+    "title": "Fırtına",
+    "isUsed": false,
+    "forbiddens": ["Rüzgar", "Yağmur", "Doğa", "Şimşek"]
+  },
+  {
+    "id": 267,
+    "title": "Kapı",
+    "isUsed": false,
+    "forbiddens": ["Ev", "Açmak", "Geçiş", "Giriş"]
+  },
+  {
+    "id": 269,
+    "title": "Gölge",
+    "isUsed": false,
+    "forbiddens": ["Işık", "Karanlık", "Yansıma", "Saklanma"]
+  },
+  {
+    "id": 274,
+    "title": "Dünyası",
+    "isUsed": false,
+    "forbiddens": ["Gezegen", "Yerküre", "Küresel", "Doğa"]
+  },
+  {
+    "id": 278,
+    "title": "Sünger",
+    "isUsed": false,
+    "forbiddens": ["Yumuşak", "Temizlik", "Banyo", "Su"]
+  }
+]
