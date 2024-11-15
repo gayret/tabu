@@ -5,6 +5,7 @@ import allWords from './data/words.json'
 import Card from './components/game/Card'
 import CountDown from './components/game/CountDown'
 import Actions from './components/game/Actions'
+import Link from 'next/link'
 
 export default function Home() {
   const [words, setWords] = useState(allWords)
@@ -94,7 +95,7 @@ export default function Home() {
       </div>
 
       <button className='btn-settings'>
-        <a href='/settings'>Ayarlar</a>
+        <Link href='/settings'>Ayarlar</Link>
       </button>
 
       {activeIndex && !isCardsFinished && (

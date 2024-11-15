@@ -1,6 +1,7 @@
 'use client'
 import Link from 'next/link'
 import { useState, useEffect } from 'react'
+import InputNumber from '../components/InputNumber/InputNumber'
 
 export default function Settings() {
   const [count, setCount] = useState(60)
@@ -25,30 +26,16 @@ export default function Settings() {
       <h1>Ayarlar</h1>
       <div className='settings-fields'>
         <div className='settings-field'>
-          <label>Kart başına tanınacak süre</label>
-          <input
-            type='number'
-            defaultValue={count}
-            min={0}
-            max={120}
-            onChange={(e) => setCount(e.target.value)}
-          />
+          <InputNumber label='Kart başına tanınacak süre' value={count} setValue={setCount} />
         </div>
         <div className='settings-field'>
-          <label>Toplam pas hakkı</label>
-          <input
-            type='number'
-            defaultValue={passable}
-            min={0}
-            max={10}
-            onChange={(e) => setPassable(e.target.value)}
-          />
+          <InputNumber label='Toplam pas hakkı' value={passable} setValue={setPassable} />
         </div>
         <div className='settings-field'>
           <button onClick={onSubmit}>Kaydet</button>
         </div>
         <div className='settings-field'>
-          <button>
+          <button className='btn-start'>
             <Link href='/'>Oyuna dön</Link>
           </button>
         </div>

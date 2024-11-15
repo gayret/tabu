@@ -1,3 +1,5 @@
+@import url('./components/InputNumber/input-number.css');
+
 :root {
   --background: #0a0a0a;
   --foreground: #ededed;
