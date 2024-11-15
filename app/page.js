@@ -1,21 +1,28 @@
 'use client'
 
 import { useEffect, useState } from 'react'
-import words from './data/words.json'
+import allWords from './data/words.json'
 import Card from './components/game/Card'
 import CountDown from './components/game/CountDown'
 import Actions from './components/game/Actions'
-import Link from 'next/link'
 
 export default function Home() {
+  const [words, setWords] = useState(allWords)
   const [activeIndex, setActiveIndex] = useState(null)
   const [wordCount, setWordCount] = useState(0)
   const [points, setPoints] = useState(0)
   const [passable, setPassable] = useState(5)
   const [count, setCount] = useState(60)
+  const [isCardsFinished, setIsCardsFinished] = useState(false)
 
   const setRandomWord = () => {
-    setActiveIndex(Math.floor(Math.random() * words.length))
+    if (words.length <= 2) {
+      setIsCardsFinished(true)
+      return
+    }
+    const randomIndex = Math.floor(Math.random() * (words.length - 2) + 1)
+    setActiveIndex(randomIndex)
+    setWords((prevWords) => prevWords.filter((_, index) => index !== activeIndex))
     setCount(Number(localStorage.getItem('count')) || 60)
     setWordCount((prevWordCount) => prevWordCount + 1)
   }
@@ -41,9 +48,16 @@ export default function Home() {
       setPassable(Number(localStorage.getItem('passable')))
   }
 
+  const onStart = () => {
+    setIsCardsFinished(false)
+    setWords(allWords)
+    setPoints(0)
+    setWordCount(0)
+    setRandomWord()
+  }
+
   useEffect(() => {
     setDefaults()
-    setRandomWord()
   }, [])
 
   return (
@@ -52,24 +66,45 @@ export default function Home() {
         <div className='word-count'>Kaçıncı kelime: {wordCount} </div>
         <div className='points'>Puan: {points}</div>
       </div>
-      <div key={count}>
-        <CountDown count={count} setCount={setCount} />
-      </div>
+      {activeIndex && !isCardsFinished && (
+        <div key={count} style={{ textAlign: 'center' }}>
+          <CountDown isPlaying={!!activeIndex} count={count} setCount={setCount} />
+        </div>
+      )}
       <div className='cards'>
-        {words.map(
-          (word, wordIndex) => wordIndex === activeIndex && <Card key={word.id} word={word} />
+        {activeIndex &&
+          !isCardsFinished &&
+          words.map(
+            (word, wordIndex) => wordIndex === activeIndex && <Card key={word.id} word={word} />
+          )}
+
+        {!activeIndex && !isCardsFinished && (
+          <div className='start'>
+            <h2 className='title'>Hazır mısınız?</h2>
+            <button onClick={onStart}>Oyunu başlat</button>
+          </div>
+        )}
+
+        {isCardsFinished && (
+          <div className='start'>
+            <h2 className='title'>Oha tüm kartları gördünüz.</h2>
+            <button onClick={onStart}>Yeniden Oyna</button>
+          </div>
         )}
       </div>
+
       <button className='btn-settings'>
         <a href='/settings'>Ayarlar</a>
       </button>
 
-      <Actions
-        passable={passable}
-        setPassed={onPass}
-        setPositivePoints={setPositivePoints}
-        setNegativePoints={setNegativePoints}
-      />
+      {activeIndex && !isCardsFinished && (
+        <Actions
+          passable={passable}
+          setPassed={onPass}
+          setPositivePoints={setPositivePoints}
+          setNegativePoints={setNegativePoints}
+        />
+      )}
     </>
   )
 }
