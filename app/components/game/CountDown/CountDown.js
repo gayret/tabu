@@ -16,8 +16,11 @@ export default function CountDown({ count, setCount, isPlaying }) {
     return () => clearInterval(interval)
   })
   return (
-    <span key={countdown} className='countdown'>
-      {countdown}
+    <span
+      key={countdown}
+      className={countdown < 11 && countdown > 0 ? 'countdown alarm' : 'countdown'}
+    >
+      <div>{countdown}</div>
     </span>
   )
 }

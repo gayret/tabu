@@ -1,4 +1,5 @@
 @import url('./components/InputNumber/input-number.css');
+@import url('./components/game/CountDown/count-down.css');
 
 :root {
   --background: #0a0a0a;
@@ -55,7 +56,6 @@ button {
 .score {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 4rem;
 }
 
 .cards {
@@ -92,18 +92,6 @@ button {
 .card ul li {
   border: 1px solid #555;
   padding: 1rem;
-}
-
-.countdown {
-  text-align: center;
-  background-color: skyblue;
-  color: var(--background);
-  border-radius: 50%;
-  max-width: 3rem;
-  padding: 1rem;
-  font-weight: bold;
-  margin-inline: auto;
-  font-size: 2rem;
 }
 
 .actions {

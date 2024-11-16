@@ -1,0 +1,33 @@
+.countdown {
+  text-align: center;
+  border-radius: 50%;
+  max-width: 3rem;
+  padding: 1rem;
+  font-weight: bold;
+  margin-inline: auto;
+}
+
+.countdown div {
+  color: var(--foreground);
+  font-size: 2rem;
+}
+
+.countdown.alarm div {
+  color: var(--foreground);
+  animation: alarm 1s infinite ease-in-out;
+}
+
+@keyframes alarm {
+  0% {
+    transform: scale(1);
+    color: darkred;
+  }
+  50% {
+    transform: scale(1.6);
+    color: var(--foreground);
+  }
+  100% {
+    transform: scale(1);
+    color: darkred;
+  }
+}

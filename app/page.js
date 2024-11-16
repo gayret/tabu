@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react'
 import allWords from './data/words.json'
 import Card from './components/game/Card'
-import CountDown from './components/game/CountDown'
+import CountDown from './components/game/CountDown/CountDown'
 import Actions from './components/game/Actions'
 import Link from 'next/link'
 
@@ -49,6 +49,7 @@ export default function Home() {
   }
 
   const onStart = () => {
+    setDefaults()
     setIsCardsFinished(false)
     setWords(allWords)
     setPoints(0)
@@ -97,13 +98,19 @@ export default function Home() {
         <Link href='/settings'>Ayarlar</Link>
       </button>
 
-      {activeIndex && !isCardsFinished && (
+      {activeIndex && !isCardsFinished && count !== 0 && (
         <Actions
           passable={passable}
           setPassed={onPass}
           setPositivePoints={setPositivePoints}
           setNegativePoints={setNegativePoints}
         />
+      )}
+
+      {count === 0 && (
+        <div className='start'>
+          <button onClick={onStart}>Yeniden Oyna</button>
+        </div>
       )}
     </>
   )
