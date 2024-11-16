@@ -1,8 +1,5 @@
-export default function InputNumber({ label, value, setValue }) {
-  const onChangeValue = (type) => {
-    if (value === 0 && type === '-') return
-    setValue((prevValue) => (type === '+' ? prevValue + 1 : prevValue - 1))
-  }
+export default function InputNumber({ label, value, action }) {
+  const onChangeValue = (type) => action(type)
 
   return (
     <div className='input-number-wrapper'>

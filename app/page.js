@@ -24,7 +24,6 @@ export default function Home() {
     const randomIndex = Math.floor(Math.random() * (words.length - 2) + 1)
     setActiveIndex(randomIndex)
     setWords((prevWords) => prevWords.filter((_, index) => index !== activeIndex))
-    setCount(Number(localStorage.getItem('count')) || 60)
     setWordCount((prevWordCount) => prevWordCount + 1)
   }
 

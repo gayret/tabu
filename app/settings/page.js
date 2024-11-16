@@ -13,6 +13,18 @@ export default function Settings() {
       setPassable(Number(localStorage.getItem('passable')))
   }
 
+  const onChangeCount = (type) => {
+    if (count === 0) return
+    if (type === '-') setCount(count - 10)
+    if (type === '+') setCount(count + 10)
+  }
+
+  const onChangePassable = (type) => {
+    if (passable === 0) return
+    if (type === '-') setPassable(passable - 1)
+    if (type === '+') setPassable(passable + 1)
+  }
+
   const onSubmit = () => {
     localStorage.setItem('count', count)
     localStorage.setItem('passable', passable)
@@ -26,10 +38,14 @@ export default function Settings() {
       <h1>Ayarlar</h1>
       <div className='settings-fields'>
         <div className='settings-field'>
-          <InputNumber label='Kart başına tanınacak süre (sn)' value={count} setValue={setCount} />
+          <InputNumber
+            label='Çift başına tanınacak süre (sn)'
+            value={count}
+            action={onChangeCount}
+          />
         </div>
         <div className='settings-field'>
-          <InputNumber label='Toplam pas hakkı' value={passable} setValue={setPassable} />
+          <InputNumber label='Toplam pas hakkı' value={passable} action={onChangePassable} />
         </div>
         <div className='settings-field'>
           <button onClick={onSubmit}>Kaydet</button>
