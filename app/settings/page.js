@@ -14,13 +14,13 @@ export default function Settings() {
   }
 
   const onChangeCount = (type) => {
-    if (count === 0) return
+    if (count === 0 && type === '-') return
     if (type === '-') setCount(count - 10)
     if (type === '+') setCount(count + 10)
   }
 
   const onChangePassable = (type) => {
-    if (passable === 0) return
+    if (passable === 0 && type === '-') return
     if (type === '-') setPassable(passable - 1)
     if (type === '+') setPassable(passable + 1)
   }
