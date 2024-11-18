@@ -62,7 +62,7 @@ export default function Home() {
   }, [])
 
   return (
-    <>
+    <div className='game'>
       <div className='score'>
         <div className='word-count'>{wordCount}. kelime</div>
         <div className='points'>{points} puan</div>
@@ -112,6 +112,6 @@ export default function Home() {
           <button onClick={onStart}>Yeniden Oyna</button>
         </div>
       )}
-    </>
+    </div>
   )
 }
