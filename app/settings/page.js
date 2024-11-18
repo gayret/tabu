@@ -2,10 +2,12 @@
 import Link from 'next/link'
 import { useState, useEffect } from 'react'
 import InputNumber from '../components/InputNumber/InputNumber'
+import { useRouter } from 'next/navigation'
 
 export default function Settings() {
   const [count, setCount] = useState(60)
   const [passable, setPassable] = useState(5)
+  const router = useRouter()
 
   const setDefaults = () => {
     if (Number(localStorage.getItem('count'))) setCount(Number(localStorage.getItem('count')))
@@ -28,6 +30,8 @@ export default function Settings() {
   const onSubmit = () => {
     localStorage.setItem('count', count)
     localStorage.setItem('passable', passable)
+
+    router.push('/')
   }
 
   useEffect(() => {
@@ -51,9 +55,9 @@ export default function Settings() {
           <button onClick={onSubmit}>Kaydet</button>
         </div>
         <div className='settings-field'>
-          <button className='btn-start'>
-            <Link href='/'>Oyuna dön</Link>
-          </button>
+          <Link className='btn-start' href='/'>
+            Oyuna dön
+          </Link>
         </div>
       </div>
     </div>

@@ -5,9 +5,10 @@ import allWords from './data/words.json'
 import Card from './components/game/Card'
 import CountDown from './components/game/CountDown/CountDown'
 import Actions from './components/game/Actions'
-import Link from 'next/link'
+import { useRouter } from 'next/navigation'
 
 export default function Home() {
+  const router = useRouter()
   const [words, setWords] = useState(allWords)
   const [activeIndex, setActiveIndex] = useState(null)
   const [wordCount, setWordCount] = useState(0)
@@ -46,6 +47,12 @@ export default function Home() {
     if (Number(localStorage.getItem('count'))) setCount(Number(localStorage.getItem('count')))
     if (Number(localStorage.getItem('passable')))
       setPassable(Number(localStorage.getItem('passable')))
+  }
+
+  const onPushSettings = () => {
+    if (confirm('Ayarlar sayfasına giderken puanınız sıfırlanacak. Onaylıyor musunuz?')) {
+      router.push('/settings')
+    }
   }
 
   const onStart = () => {
@@ -94,8 +101,8 @@ export default function Home() {
         )}
       </div>
 
-      <button className='btn-settings'>
-        <Link href='/settings'>Ayarlar</Link>
+      <button className='btn-settings' onClick={onPushSettings}>
+        Ayarlar
       </button>
 
       {activeIndex && !isCardsFinished && count !== 0 && (

@@ -33,4 +33,7 @@
 .btn-start {
   background-color: yellow;
   color: #000;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 0.3rem;
 }
