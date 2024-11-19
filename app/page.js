@@ -64,6 +64,11 @@ export default function Home() {
     setRandomWord()
   }
 
+  const onStartAgain = () => {
+    setCount(localStorage.getItem('count') || 60)
+    onStart()
+  }
+
   useEffect(() => {
     setDefaults()
   }, [])
@@ -96,7 +101,7 @@ export default function Home() {
         {isCardsFinished && (
           <div className='start'>
             <h2 className='title'>Oha tüm kartları gördünüz.</h2>
-            <button onClick={onStart}>Yeniden Oyna</button>
+            <button onClick={onStartAgain}>Yeniden Oyna</button>
           </div>
         )}
       </div>
