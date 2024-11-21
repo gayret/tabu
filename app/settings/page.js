@@ -7,6 +7,7 @@ import { useRouter } from 'next/navigation'
 export default function Settings() {
   const [count, setCount] = useState(60)
   const [passable, setPassable] = useState(5)
+  const [highlightSubmitButton, setHighlightSubmitButton] = useState(false)
   const router = useRouter()
 
   const setDefaults = () => {
@@ -16,18 +17,21 @@ export default function Settings() {
   }
 
   const onChangeCount = (type) => {
+    setHighlightSubmitButton(true)
     if (count === 0 && type === '-') return
     if (type === '-') setCount(count - 10)
     if (type === '+') setCount(count + 10)
   }
 
   const onChangePassable = (type) => {
+    setHighlightSubmitButton(true)
     if (passable === 0 && type === '-') return
     if (type === '-') setPassable(passable - 1)
     if (type === '+') setPassable(passable + 1)
   }
 
   const onSubmit = () => {
+    setHighlightSubmitButton(false)
     localStorage.setItem('count', count)
     localStorage.setItem('passable', passable)
 
@@ -52,9 +56,9 @@ export default function Settings() {
           <InputNumber label='Toplam pas hakkı' value={passable} action={onChangePassable} />
         </div>
         <div className='settings-field'>
-          <button onClick={onSubmit}>Kaydet</button>
+          <button className={highlightSubmitButton ? 'btn-start' : ''} onClick={onSubmit}>Kaydet</button>
         </div>
-        <div className='settings-field'>
+        <div className='settings-field position-bottom'>
           <Link className='btn-start' href='/'>
             Oyuna dön
           </Link>

@@ -143,6 +143,10 @@ button {
   gap: 0.5rem;
 }
 
+.settings-fields .position-bottom {
+  margin-top: auto;
+}
+
 .settings-field input {
   padding: 0.9rem 0.5rem;
   border-radius: 8px;

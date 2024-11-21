@@ -1846,5 +1846,69 @@
   {
     "title": "Buz Pateni",
     "forbiddens": ["Buz", "Kayma", "Ayakkabı", "Yarış"]
+  },
+  {
+    "title": "Gitar",
+    "forbiddens": ["Telli", "Akustik", "Müzik", "Çalmak"]
+  },
+  {
+    "title": "Şehir Tiyatrosu",
+    "forbiddens": ["Oyun", "Aktör", "Sahne", "Sanat"]
+  },
+  {
+    "title": "Kostüm",
+    "forbiddens": ["Tiyatro", "Elbise", "Sahne", "Karakter"]
+  },
+  {
+    "title": "Manzara",
+    "forbiddens": ["Resim", "Doğa", "Tablo", "Tuval"]
+  },
+  {
+    "title": "Resim",
+    "forbiddens": ["Çizim", "Boya", "Sanat", "Tuval"]
+  },
+  {
+    "title": "Viyolonsel",
+    "forbiddens": ["Telli", "Müzik", "Orkestra", "Keman"]
+  },
+  {
+    "title": "El Sanatları",
+    "forbiddens": ["Geleneksel", "Ebru", "Çini", "El işi"]
+  },
+  {
+    "title": "Bando",
+    "forbiddens": ["Müzik", "Asker", "Davul", "Enstrüman"]
+  },
+  {
+    "title": "İllüstrasyon",
+    "forbiddens": ["Çizim", "Resim", "Kitap", "Karakter"]
+  },
+  {
+    "title": "Origami",
+    "forbiddens": ["Kağıt", "Katlama", "Sanat", "Desen"]
+  },
+  {
+    "title": "Desen",
+    "forbiddens": ["Çizim", "Kağıt", "Kalem", "Sanat"]
+  },
+  {
+    "title": "Portre",
+    "forbiddens": ["Yüz", "Resim", "Fotoğraf", "İnsan"]
+  },
+  {
+    "title": "Çini",
+    "forbiddens": ["Seramik", "El işi", "Desen", "Renk"]
+  },
+  {
+    "title": "Tablo",
+    "forbiddens": ["Tuval", "Fırça", "Sanatçı", "Sergi"]
+  },
+  {
+    "title": "Orkestra",
+    "forbiddens": ["Müzik", "Keman", "Şef", "Senfoni"]
+  },
+  {
+    "title": "Grafik Tasarım",
+    "forbiddens": ["Dijital", "Poster", "Logo", "Bilgisayar"]
   }
 ]
