@@ -1848,16 +1848,8 @@
     "forbiddens": ["Buz", "Kayma", "Ayakkabı", "Yarış"]
   },
   {
-    "title": "Gitar",
-    "forbiddens": ["Telli", "Akustik", "Müzik", "Çalmak"]
-  },
-  {
     "title": "Şehir Tiyatrosu",
     "forbiddens": ["Oyun", "Aktör", "Sahne", "Sanat"]
-  },
-  {
-    "title": "Kostüm",
-    "forbiddens": ["Tiyatro", "Elbise", "Sahne", "Karakter"]
   },
   {
     "title": "Manzara",
@@ -1870,10 +1862,6 @@
   {
     "title": "Viyolonsel",
     "forbiddens": ["Telli", "Müzik", "Orkestra", "Keman"]
-  },
-  {
-    "title": "El Sanatları",
-    "forbiddens": ["Geleneksel", "Ebru", "Çini", "El işi"]
   },
   {
     "title": "Bando",
@@ -1910,5 +1898,149 @@
   {
     "title": "Grafik Tasarım",
     "forbiddens": ["Dijital", "Poster", "Logo", "Bilgisayar"]
+  },
+  {
+    "title": "Fizik",
+    "forbiddens": ["Kuvvet", "Enerji", "Newton", "Hareket"]
+  },
+  {
+    "title": "Biyoloji",
+    "forbiddens": ["Hücre", "DNA", "Organizma", "Bitki"]
+  },
+  {
+    "title": "Tarih",
+    "forbiddens": ["Savaş", "İmparatorluk", "Tarihler", "Osmanlı"]
+  },
+  {
+    "title": "Coğrafya",
+    "forbiddens": ["Harita", "Dağ", "Nehir", "Ülke"]
+  },
+  {
+    "title": "İngilizce",
+    "forbiddens": ["Dil", "Çeviri", "Kelime", "Gramer"]
+  },
+  {
+    "title": "Drama",
+    "forbiddens": ["Tiyatro", "Oyuncu", "Sahne", "Senaryo"]
+  },
+  {
+    "title": "Fen Bilgisi",
+    "forbiddens": ["Doğa", "Deney", "Laboratuvar", "Madde"]
+  },
+  {
+    "title": "Beden Eğitimi",
+    "forbiddens": ["Spor", "Egzersiz", "Futbol", "Koşu"]
+  },
+  {
+    "title": "Psikoloji",
+    "forbiddens": ["Beyin", "Duygu", "Kişilik", "Terapi"]
+  },
+  {
+    "title": "Sosyoloji",
+    "forbiddens": ["Toplum", "İnsan", "Kültür", "Grup"]
+  },
+  {
+    "title": "Bilgisayar Bilimleri",
+    "forbiddens": ["Kod", "Yazılım", "Donanım", "Veri"]
+  },
+  {
+    "title": "Ekonomi",
+    "forbiddens": ["Para", "Borsa", "Ticaret", "Gelir"]
+  },
+  {
+    "title": "Hukuk",
+    "forbiddens": ["Adalet", "Mahkeme", "Kanun", "Hakim"]
+  },
+  {
+    "title": "İşletme",
+    "forbiddens": ["Yönetim", "Şirket", "Pazarlama", "Strateji"]
+  },
+  {
+    "title": "Görsel Sanatlar",
+    "forbiddens": ["Heykel", "Fotoğraf", "Sanatçı", "Galeri"]
+  },
+  {
+    "title": "Moda Tasarımı",
+    "forbiddens": ["Kıyafet", "Defile", "Stil", "Tekstil"]
+  },
+  {
+    "title": "Karakalem",
+    "forbiddens": ["Çizim", "Kalem", "Sanat", "Portre"]
+  },
+  {
+    "title": "Web Tasarımı",
+    "forbiddens": ["HTML", "CSS", "Web", "Kodlama"]
+  },
+  {
+    "title": "3D Modelleme",
+    "forbiddens": ["Render", "Animasyon", "Taslak", "Dizayn"]
+  },
+  {
+    "title": "Makine Mühendisliği",
+    "forbiddens": ["Çark", "Enerji", "Taslak", "Tasarım"]
+  },
+  {
+    "title": "Elektrik",
+    "forbiddens": ["Akım", "Devre", "Volt", "Kablo"]
+  },
+  {
+    "title": "Çevre Bilimleri",
+    "forbiddens": ["Doğa", "Atık", "Ekosistem", "Kirlilik"]
+  },
+  {
+    "title": "Sağlık Bilimleri",
+    "forbiddens": ["Tıp", "Hasta", "Tedavi", "İlaç"]
+  },
+  {
+    "title": "İlk Yardım",
+    "forbiddens": ["Yaralanma", "Ambulans", "Bant", "Kan"]
+  },
+  {
+    "title": "Zeka Oyunları",
+    "forbiddens": ["Satranç", "Bulmaca", "Strateji", "Kazan"]
+  },
+  {
+    "title": "Proje Yönetimi",
+    "forbiddens": ["Planlama", "Ekip", "Zaman", "Hedef"]
+  },
+  {
+    "title": "Siber Güvenlik",
+    "forbiddens": ["Hacker", "Veri", "Şifre", "Firewall"]
+  },
+  {
+    "title": "Veritabanı",
+    "forbiddens": ["SQL", "Tablo", "Kayıt", "Sunucu"]
+  },
+  {
+    "title": "Mobil Uygulama",
+    "forbiddens": ["Telefon", "Android", "iOS", "App"]
+  },
+  {
+    "title": "Girişimcilik",
+    "forbiddens": ["Risk", "Fikir", "Yatırım", "Startup"]
+  },
+  {
+    "title": "E-ticaret",
+    "forbiddens": ["Online", "Satış", "Mağaza", "Sepet"]
+  },
+  {
+    "title": "Oyun Geliştirme",
+    "forbiddens": ["Konsol", "Grafik", "Karakter", "Senaryo"]
+  },
+  {
+    "title": "Yazılım Testi",
+    "forbiddens": ["Hata", "Kod", "Automasyon", "Script"]
+  },
+  {
+    "title": "Endüstri Mühendisliği",
+    "forbiddens": ["Optimizasyon", "Süreç", "Kaynak", "Plan"]
+  },
+  {
+    "title": "İnsan Kaynakları",
+    "forbiddens": ["Eğitim", "Çalışan", "Mülakat", "Yetenek"]
+  },
+  {
+    "title": "Beslenme",
+    "forbiddens": ["Diyet", "Gıda", "Vitamin", "Sağlık"]
   }
 ]

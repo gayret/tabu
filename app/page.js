@@ -18,12 +18,23 @@ export default function Home() {
   const [isCardsFinished, setIsCardsFinished] = useState(false)
 
   const setRandomWord = () => {
-    if (words.length <= 2) {
+    const randomIndex = Math.floor(Math.random() * words.length + 1)
+    const oldUsedWordsIndexs = JSON.parse(localStorage.getItem('usedWordsIndexs')) || []
+
+    if (words.length == oldUsedWordsIndexs.length) {
       setIsCardsFinished(true)
       return
     }
-    const randomIndex = Math.floor(Math.random() * (words.length - 2) + 1)
+
+    if (oldUsedWordsIndexs.includes(randomIndex)) {
+      setRandomWord()
+      return
+    }
+
     setActiveIndex(randomIndex)
+
+    localStorage.setItem('usedWordsIndexs', JSON.stringify([...oldUsedWordsIndexs, randomIndex]))
+
     setWords((prevWords) => prevWords.filter((_, index) => index !== activeIndex))
     setWordCount((prevWordCount) => prevWordCount + 1)
   }
@@ -69,6 +80,11 @@ export default function Home() {
     onStart()
   }
 
+  const onClearLocalStorageAndStartAgain = () => {
+    localStorage.clear()
+    onStartAgain()
+  }
+
   useEffect(() => {
     setDefaults()
   }, [])
@@ -101,7 +117,7 @@ export default function Home() {
         {isCardsFinished && (
           <div className='start'>
             <h2 className='title'>Oha tüm kartları gördünüz.</h2>
-            <button onClick={onStartAgain}>Yeniden Oyna</button>
+            <button onClick={onClearLocalStorageAndStartAgain}>Yeniden Oyna</button>
           </div>
         )}
       </div>
