@@ -18,7 +18,9 @@ export default function Home() {
   const [isCardsFinished, setIsCardsFinished] = useState(false)
 
   const setRandomWord = () => {
-    const randomIndex = Math.floor(Math.random() * words.length + 1)
+    let randomIndex = Math.floor(Math.random() * words.length)
+    if (randomIndex == 0) randomIndex++
+    if (randomIndex != 0) randomIndex--
     const oldUsedWordsIndexs = JSON.parse(localStorage.getItem('usedWordsIndexs')) || []
 
     if (words.length == oldUsedWordsIndexs.length) {
