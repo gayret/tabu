@@ -121,7 +121,9 @@ export default function Home() {
 
       {count === 0 && (
         <div className='start'>
-          <button onClick={onStart}>Yeniden Oyna</button>
+          <button onClick={() => confirm('Oyunu yeniden baslatmak istiyor musunuz?') && onStart()}>
+            Yeniden Oyna
+          </button>
         </div>
       )}
     </div>
