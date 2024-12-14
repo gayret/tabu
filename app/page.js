@@ -26,7 +26,6 @@ export default function Home() {
     setActiveIndex(randomIndex)
     words.splice(randomIndex, 1)
     setWordCount((prevWordCount) => prevWordCount + 1)
-    console.log(words.length)
   }
 
   const setPositivePoints = () => {
